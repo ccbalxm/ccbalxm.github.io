@@ -19,5 +19,12 @@
 <div>
   <a href="">点击跳转到vue页面</a>
 </div>
+	<script>
+	   var a=document.getElementsByTagName("a")[0]
+     console.log(a)
+     a.onclick=function(e){
+       e.preventDefault()
+     }
+	</script>
 </body>
 </html>
