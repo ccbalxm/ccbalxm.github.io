@@ -1,0 +1,20 @@
+.movie{position:relative;width:1036px;height:400px;text-align:center;margin:1px auto;z-index:inherit}
+.movie #canvas{width:848px;height:400px; 
+    position:absolute;top:0%;left:-3%;
+   z-index:2 }
+    .movie #btn3{position:absolute;top:50%;left:30%;margin:2px 4px;z-index: 1;}
+    .movie #v3{position:absolute;top:0%;left:-3%;z-index:1}
+   /* //发送 */
+    .movie p{position: absolute;border:2px solid #afc;font-size:20px;background: rgb(236, 227, 227);
+        width:91px;height:26px;bottom:-28%;left:34%;cursor: default;}
+    .movie p:active{font-size:22px;color:#c0f}
+        .movie input{position: absolute;display:block;width:220px;
+        border:1px solid #aaf;
+        bottom:-28%;left:12.4%;
+        height:28px}
+    .movie .advert{margin-left:828px;}
+    .movie .advert img{width:238px;height:116px}
+    .movie .advert img:hover{width:260px;height:130px}
+    .movie .advert ul{display:flex;flex-direction:column;}
+   
+ 

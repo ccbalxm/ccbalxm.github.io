@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>主页</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/movie.css">
+    <link rel="stylesheet" href="css/center.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <style>
+        *{margin: 0;padding: 0;cursor: pointer;
+        text-decoration: none;list-style:none}
+          .all{width:1100px;display:block;    background: #dddddd;
+        margin:1px auto}
+        /* 头 */
+       
+        .header-img img{height:80px;width:80px}
+        .head{display:inline-flex;
+        margin:10px 20px 4px 10px;
+       }
+     .head ul li{display: inline-flex;}
+        /* 中 登录界面 */
+    .container{position: relative;z-index: 5;margin-left:10px}
+    .container .formLogin{position: absolute;
+    display: none;top:50%;left:70%;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="opacity" style="opacity:0; display:none"></div>
+  <div class="all">
+<!-- 头 -->
+<header> 
+    <div class="cont">
+    <div class="header-img"><h3>默直播</h3></div>
+     
+    <!--第一  -->
+           <div class="dd"><img src="" alt=""> </div>
+    <!-- 第二 -->
+    <datalist id="list1">
+            <option>冯提莫</option>
+            <option>芜湖大司马</option>
+            <option>跳跳</option>
+            <option>吃鸡</option>
+            <option>英雄联盟</option>
+            <option>发姐</option>
+            <option>十大</option>
+          </datalist>
+                 <div class="input"><input type="" placeholder="请输入搜索文" class="input2" list="list1"></div>
+                     <div class="s"><button class="btn">搜索</button></div>
+    <!-- 		第三		 -->
+                     <div class="ss">
+                     <a href="#" class="login">我的登录</a>
+                    </div>
+            </div>
+    <!-- 第三行 		 -->
+            <div class="bg-hg">
+               <ul>
+                 <li><span><em>
+                 <i>三</i>
+                 </em>作品分类</span></li>
+               <li><a href="">全部</a></li>
+               <li><a href="">手游</a></li>
+               <li><a href="">主机游戏</a></li>
+               <li><a href="">英雄联盟</a></li>
+               <li><a href="">dota</a></li>
+               <li><a href="">页游</a></li>
+               <li><a href="页面.html">推荐</a></li>
+               <li><a href="区域.html">选择地方</a></li>
+               <li><a href="播放量.html">视频播放量</a></li>
+            </ul>
+            </div>
+            </header>
+    <!-- 中间 -->
+    <div class="container">
+            <div class="formLogin">
+                    <div class="f-margin">
+                        <table></table>
+                    <div class="f-h">
+                        <div class="f-h1">
+
+                       <span class="f-h1-1">会员登录</span> 
+                       <span class="f-h1-2">还没有账号?&nbsp;立即注册</span>
+                    </div>
+                       <div>
+                       <span class="f-h1-3"><a href="">手机号/账号登陆</a></span>
+                    </div>
+                    <div class="f-center">
+                         <form action="">
+                            <input type="text" placeholder="用户名：0-8数字"  name="uname" ><img src="img/true.png" class="true"><br>
+                           <input type="password" placeholder="密码：6为字母" name="upwd"><img src="img/false.png" class="false"><br>
+                           <p class="dl"><a href="#" class="dl1">登录</a></p>
+                         </form>
+                    </div>
+                    </div>
+                    <table></table>
+                     <div class="f-floor">
+                         <p>使用第三方直接登录</p>
+                          <span><button><img src="" alt="">QQ登录</button></span>
+                          <span><button><img src="" alt="">微博登录</button></span>
+                     </div>
+                </div>
+                
+                </div>
+
+     </div>
+    <!-- 视频 -->
+    <div class="movie">
+        <video src="img/x.mp4" controls loop:false style="position:absolute;" 
+           playbackRate:1 id="v3">
+        </video>
+           <img id="btn3" src="img/play.png">
+           <input type="text" class="emit" >
+           
+           <p class="btnD">发送弹幕</p>
+         <canvas id="canvas">
+             您的浏览器不支持canvas标签。
+         </canvas>
+         <!-- 右侧 -->
+         <div class="advert">
+            <ul>
+              <li><img src="img/tu2.jpg" alt=""></li>
+              <li><img src="img/tu1.jpg" alt=""></li>
+              <li><img src="img/tu3.jpg" alt=""></li>
+              <li><img src="img/tu4.jpg" alt=""></li>
+            </ul> 
+           </div>
+     </div>
+    <!-- 中间 -->
+    <div class="zt">
+       <ul class="zt-row2">
+        <li><span>吃鸡手游</span></li>
+       <li><span>英雄联盟</span></li>
+       <li><span>武侠x</span></li>
+    </ul>
+<!--  -->
+            <ul class="zt-row1">
+              <li class="zt-row1-col">
+                  <ul class="col1">
+                     
+                      <li><img src="img/tu7.jpg" alt=""></li>
+                      <li><span>欢迎来到得来联盟</span></li>
+                  </ul>
+                  <ul class="col1">
+                        
+                        <li><img src="img/tu8.jpg" alt=""></li>
+                        <li><span>欢迎来到得来联盟</span></li>
+                    </ul>
+                    <ul class="col1">
+                    
+                            <li><img src="img/tu9.jpg" alt=""></li>
+                            <li><span>欢迎来到得来联盟</span></li>
+                        </ul>
+                        <ul class="col1">
+                    
+                                <li><img src="img/tu4.jpg" alt=""></li>
+                                <li><span>欢迎来到得来联盟</span></li>
+                            </ul>
+              </li>
+              <li class="zt-row1-col">
+                  <ul class="col1">
+                    
+                      <li><img src="img/tu1.jpg" alt=""></li>
+                      <li><span>欢迎来到得来联盟</span></li>
+                  </ul>
+                  <ul class="col1">
+                        
+                        <li><img src="img/tu3.jpg" alt=""></li>
+                        <li><span>欢迎来到得来联盟</span></li>
+                    </ul>
+                    <ul class="col1">
+                     
+                            <li><img src="img/tu2.jpg" alt=""></li>
+                            <li><span>欢迎来到得来联盟</span></li>
+                        </ul>
+                        <ul class="col1">
+                              
+                              <li><img src="img/tu9.jpg" alt=""></li>
+                              <li><span>欢迎来到得来联盟</span></li>
+                          </ul>
+                        
+              </li>
+              <li class="zt-row1-col">
+                  <ul class="col1">
+                     
+                      <li><img src="img/tu3.jpg" alt=""></li>
+                      <li><span>欢迎来到得来联盟</span></li>
+                  </ul>
+                  <ul class="col1">
+                     
+                        <li><img src="img/tu9.jpg" alt=""></li>
+                        <li><span>欢迎来到得来联盟</span></li>
+                    </ul>
+                    <ul class="col1">
+                     
+                            <li><img src="img/tu8.jpg" alt=""></li>
+                            <li><span>欢迎来到得来联盟</span></li>
+                        </ul>
+                        <ul class="col1">
+                              
+                              <li><img src="img/tu1.jpg" alt=""></li>
+                              <li><span>欢迎来到得来联盟</span></li>
+                          </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- 中间2 -->
+          <div class="zt2">
+            <h3>娱乐天地</h3>
+            <p class="p1">哒哒哒哒哒哒d</p>
+            <div class="zt2-0">
+            <ul class="zt2-1">
+              <li><img src="img/mm.png" alt="">
+                <p>这是某某的</p>
+            </li>
+              <li><img src="img/tu1.jpg" alt="">
+                <p>这是某某的</p>
+            </li>
+              <li><img src="img/mm.png" alt="">
+                <p>这是某某的</p>
+            </li>
+              <li><img src="img/tu4.jpg" alt="">
+                <p>这是某某的</p>
+            </li>
+            </ul>
+            <!-- 第二个ul -->
+             <ul class="zt2-2">
+               <li><img src="img/tu3.jpg" alt="">
+                <p>这是某某的</p>
+            </li>
+               <li><img src="img/mm.png" alt="">
+                <p>这是某某的</p>
+            </li>
+               <li><img src="img/tu8.jpg" alt="">
+                <p>这是某某的</p>
+            </li>
+               <li><img src="img/mm.png" alt="">
+                <p>这是某某的</p>
+            </li>
+             </ul>
+           </div>
+       </div>
+          <!-- 中间3 -->
+          <!-- 底部 -->
+          <div class="footer">
+            <h3>友情链接</h3>
+            <ul class="footer1">
+                <li>默播手机战</li>
+                <li>轻小说</li>
+                <li>游民星空</li>
+                <li>1813手机网</li>
+                <li>企鹅</li>
+                <li>虎牙直播</li>
+                <li>斗鱼自家</li>
+            </ul>
+          <div class="footer2">
+             <ul>
+                 <li>关于我|</li>
+                 <li>联系客户|</li>
+                 <li>招聘信息|</li>
+                 <li>友情链接|</li>
+                 <li>你要直播</li>
+             </ul>
+             <p>华夏默网络科技有限公司<br>版权所有 ©www.douyu.com 鄂ICP备15011961号-1 |鄂公网安备 42018502000107号|工商网监|鄂网文（2018）9760-291号</p>
+             <p>公司地址：湖北省武汉市东湖开发区光谷软件园F4栋8楼 客户服务热线：027-87750710/027-87057679</p>
+          </div>
+          </div>
+    </div>
+
+    <script src="js/登录.js"></script>
+    
+    <script src="js/movie.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+header h3{word-break: break-all;margin-left: 94px;
+    margin-top: 23px;font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 11px;}
+header .cont{width:1100px;margin:0 auto;position:fixed;z-index:22}
+header .cont{display:flex;flex-direction:row;background:#faf;
+margin-top:-63px;height:63px}
+header .input{margin:20px 200px;margin-right:0;}
+header .input2{display:block;height:28px;width:250px}
+header .ss{margin-top:27px;margin-left:190px;}
+header .s{margin-top:21px;margin-left:0px}
+header .ss a:hover{color:red}
+header .btn{width:70px;height:33px;margin-top:-1px}
+
+/*第二行*/
+header ul{list-style:none;display:flex;flex-direction:row;height:38px;}
+header .bg-hg{background:#3e3d43;margin-top:64px}
+header .bg-hg li{margin:2px 23px;line-height:2;}
+header .bg-hg li,ul,a{font-size:18px;list-style: none;color:#fff;
+text-align:center;text-decoration:none;word-break: break-all }
+/* tou */
+
+.header-img{height:100px}

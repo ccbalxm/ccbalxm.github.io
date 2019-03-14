@@ -1,0 +1,49 @@
+
+
+.container .formLogin{background-color:#aca;
+width:350px;height:350px;
+text-align: center;
+/* display: none; */
+margin-top: 30px;}
+
+.container .formLogin .f-margin{margin:20px 5px;width:100%}
+
+.container .formLogin .f-h1{width: 330px;
+	border-bottom: 1px solid #000000;
+	text-align: left;
+    font-family: '微软雅黑';
+    margin-top:14px;
+   }
+  
+   .container .formLogin .f-h1 .f-h1-1{font-size: 30px;
+        height: 40px;
+        color: #000000;margin-left:5px}
+    
+    .container .formLogin .f-h1 .f-h1-2{ font-size: 15px;
+	line-height: 55px;
+	float: right;
+          color: #000000;
+             margin-left:15px} 
+
+    .container .formLogin .f-h1-3{ font-size: 18px;display:block;
+    margin:5px -10px;
+    color: #000000;
+    margin-bottom:15px
+} 
+/* 中间form */
+.container .f-center input{display:block;width:90%;height:37px;margin-bottom:-18px} 
+ .dl{background-color: #5cb85c;border:2px solid #46b8da;width:100px;height:35px;margin:2px 0px;
+  }
+  .container .dl a{display:block;font-size: 20px;text-decoration: none;text-align: center;color:#fff;margin-top:3px}
+  .container .true,.false{display:none;width:20px;height:27px;margin-left:312px;margin-top: -14px}
+   
+   /* 底部 */
+   .container .f-floor{margin-top:16px;border-top:2px solid #aac;margin-right:21px;margin-left:2px}
+   .container .f-floor button{width:110px;height:38px;font-size:20px;background-color:#5bc0de;border:1px solid #46b8da }
+/* 登录后 */
+   .opacity{    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99;}
